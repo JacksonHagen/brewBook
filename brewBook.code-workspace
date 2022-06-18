@@ -1,0 +1,74 @@
+
+{
+  "folders": [
+		{
+			"path": "brewBook.client",
+			"name": "client"
+		},
+		{
+			"path": "brewBook",
+			"name": "server"
+		},
+		{
+			"path": ".github/workflows",
+			"name": "workflows"
+		},
+		{
+			"name": "brewBook",
+			"path": "."
+		}
+	],
+  "settings": {
+    "editor.suggestSelection": "first",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "files.exclude": {
+      "**/.nyc_*": true,
+      "**/coverage": true,
+      "**/node_modules": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+		},
+		"cSpell.words": [
+			"darkroast",
+			"espressorecipes",
+			"filterrecipes",
+			"Preinfusion"
+		],
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#794d0b",
+			"activityBar.activeBorder": "#031d13",
+			"activityBar.background": "#794d0b",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#031d13",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"sash.hoverBorder": "#794d0b",
+			"statusBar.background": "#4a2f07",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#794d0b",
+			"statusBarItem.remoteBackground": "#4a2f07",
+			"statusBarItem.remoteForeground": "#e7e7e7",
+			"titleBar.activeBackground": "#4a2f07",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#4a2f0799",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.color": "#4a2f07"
+  }
+}
