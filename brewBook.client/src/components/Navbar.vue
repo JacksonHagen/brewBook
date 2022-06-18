@@ -1,6 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+  <nav class="navbar navbar-expand-lg navbar-bean bg-bean px-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
+      <img src="../assets/img/bblogo.jpeg" alt="Brewbook logo" class="logo" />
     </router-link>
     <button
       class="navbar-toggler"
@@ -14,7 +15,7 @@
       <span class="navbar-toggler-icon" />
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto justify-content-between">
+      <ul class="navbar-nav ms-auto me-5">
         <li class="flamenco">
           <router-link
             :to="{ name: 'About' }"
@@ -62,8 +63,10 @@ a:hover {
   text-transform: uppercase;
 }
 .navbar-nav .router-link-exact-active {
-  border-bottom: 2px solid var(--bs-success);
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+.logo {
+  height: 4rem;
 }
 </style>
