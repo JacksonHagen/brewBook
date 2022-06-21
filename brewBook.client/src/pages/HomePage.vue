@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="row mt-5">
+    <div class="row mt-5 justify-content-around">
       <div class="col-md-6">
         <NewestRecipesCard :recipes="newestFiveFilterRecipes">
           <template #header>Newest Filter Recipes</template>

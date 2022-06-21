@@ -17,9 +17,15 @@ const routes = [
     component: loadPage('AboutPage')
   },
 	{
-		path: '/recipe/:id',
-		name: 'Recipe',
-		component: loadPage('RecipePage'),
+		path: '/filterrecipe/:id',
+		name: 'FilterRecipe',
+		component: loadPage('FilterRecipePage'),
+		beforeEnter: authSettled
+	},
+	{
+		path: '/espressorecipe/:id',
+		name: 'EspressoRecipe',
+		component: loadPage('EspressoRecipePage'),
 		beforeEnter: authSettled
 	},
   {

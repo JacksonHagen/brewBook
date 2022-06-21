@@ -1,5 +1,7 @@
 <template>
-  <div class="container"></div>
+  <div class="card">
+		
+	</div>
 </template>
 
 

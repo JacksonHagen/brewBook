@@ -9,6 +9,11 @@ class FilterRecipesService
 		logger.log('filter recipes',res.data)
 		AppState.filterRecipes = res.data
 	}
+	async getById(id) {
+		const res = await api.get('api/filterrecipes/' + id)
+		logger.log('active filter recipe', res.data)
+		AppState.activeFilterRecipe = res.data
+	}
 }
 
 export const filterRecipesService = new FilterRecipesService();
